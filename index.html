@@ -6,10 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Restaurant - La Ferme Des Voisins">
     <title>La Ferme Des Voisins</title>
-    <link
-  rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
-/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="/assets/css/app.css">
 </head>
 
@@ -73,9 +70,7 @@
                         <li><a href="">contactez-nous</a></li>
                     </ul>
                 </nav>
-                <!-- <div class="burger">
-                    <button class="burger-btn">Menu</button>
-                </div> -->
+
             </div>
             <p class="wel">Bienvenue</p>
 
@@ -85,38 +80,46 @@
             </section>
         </div>
 
+        <div class="burger">
+            <button class="burger-btn" id="burger-btn">☰</button>
+            <nav class="mobile-menu" id="mobile-menu">
+                <ul class="mobile-menu-content">
+                    <li><a href="#acceuil">Accueil</a></li>
+                    <li><a href="/carte.html">à la carte</a></li>
+                    <li><a href="/chef.html">le Chef</a></li>
+                    <li><a href="/jazz.html">soirée jazz</a></li>
+                    <li><a href="/boisson.html">carte des vins</a></li>
+                    <li><a href="#contact">plan d'accés</a></li>
+                    <li><a href="#">actualité</a></li>
+                    <li><a href="#">galerie photo</a></li>
+                    <li><a href="#">réception</a></li>
+                    <li><a href="#">contactez-nous</a></li>
+                </ul>
+            </nav>
+        </div>
 
-        <!-- <nav class="arcodeon-menu">
-            <button class="arcodeon-burger">Acceuil</button>
-            <ul class="arcodeon-content">
-                <li> <a href="/carte.html">à la carte</a></li>
-                <li> <a href="/chef.html">le Chef</a></li>
-                <li> <a href="/chef.html">soirée jazz</a></li>
-                <li> <a href="/boisson.html">carte des vins</a></li>
-                <li> <a href="">plan d'accés</a></li>
-                <li> <a href="">actualité</a></li>
-                <li> <a href="">galerie photo</a></li>
-                <li> <a href="">réception</a></li>
-                <li> <a href="">contactez-nous</a></li>
-            </ul>
-        </nav> -->
-        <section class="restaurant">
-            <div class="content">
-                <div class="text">
-                    <h2> <span>Découvrez</span> notre restaurant</h2>
-                    <p>A l'orée de la Haute-Vallée de Chevreuse, au coeur d'une région riche en histoire (Versailles,
-                        Port-Royal, Dampierre), vous tomberez sous le charme de ce restaurant situé dans le vieux
-                        village de Voisins-le-Bretonneux, l'une des communes du centre d'affaires de Saint Quentin en
-                        Yvelines.</p>
-                    <p>Venez découvrir une cuisine authentique et raffinée dans un cadre spacieux et chaleureux, autour
-                        d'une magnifique cheminée centrale l'hiver, et profiter de la terrasse généreusement fleurie dès
-                        les premiers beaux jours.</p>
+    
+
+        <div class="container-struct">
+            <section class="restaurant">
+                <div class="content">
+                    <div class="text">
+                        <h2> <span>Découvrez</span> notre restaurant</h2>
+                        <p>A l'orée de la Haute-Vallée de Chevreuse, au coeur d'une région riche en histoire (Versailles,
+                            Port-Royal, Dampierre), vous tomberez sous le charme de ce restaurant situé dans le vieux
+                            village de Voisins-le-Bretonneux, l'une des communes du centre d'affaires de Saint Quentin en
+                            Yvelines.</p>
+                        <p>Venez découvrir une cuisine authentique et raffinée dans un cadre spacieux et chaleureux, autour
+                            d'une magnifique cheminée centrale l'hiver, et profiter de la terrasse généreusement fleurie dès
+                            les premiers beaux jours.</p>
+                    </div>
+                    <div class="image b">
+                        <img src="/assets/img/24.png" alt="Image du restaurant">
+                    </div>
                 </div>
-                <div class="image b">
-                    <img src="/assets/img/24.png" alt="Image du restaurant">
-                </div>
-            </div>
-        </section>
+            </section>
+        </div>
+        
         <section class="gallery">
             <div class="gallery-item">
                 <img src="/assets/img/15.png" alt="Image 1">
@@ -128,17 +131,22 @@
                 <img src="/assets/img/17.png" alt="Image 3">
             </div>
         </section>
-        <section class="cuisine">
-            <div class="content">
-                <div class="image">
-                    <img src="/assets/img/19.png" alt="Déguster notre cuisine">
+        <div class="container-struct">
+            <section class="cuisine">
+                <div class="content">
+                    <div class="image">
+                        <img src="/assets/img/19.png" alt="Déguster notre cuisine">
+                    </div>
+                    <div class="text">
+                        <h2> <span>Déguster</span> notre cuisine</h2>
+                        <p>Découvrez notre cuisine raffinée et authentique, préparée avec des ingrédients frais et locaux.
+                            Notre chef vous propose des plats savoureux et délicats, à déguster dans un cadre chaleureux et
+                            convivial.</p>
+                    </div>
                 </div>
-                <div class="text">
-                    <h2> <span>Déguster</span> notre cuisine</h2>
-                    <p>Découvrez notre cuisine raffinée et authentique, préparée avec des ingrédients frais et locaux. Notre chef vous propose des plats savoureux et délicats, à déguster dans un cadre chaleureux et convivial.</p>
-                </div>
-            </div>
-        </section>
+            </section>
+        </div>
+  
 
         <section class="instagram">
             <h2>Retrouvez-nous sur Instagram</h2>
@@ -163,15 +171,15 @@
         <section class="additional-info">
             <div class="info-item">
                 <h2>HORAIRES D'OUVERTURE</h2>
-                    <ul class="opening-hours">
-                        <li>Lundi : 12h - 14h30 / 19h - 22h</li>
-                        <li>Mardi : 12h - 14h30 / 19h - 22h</li>
-                        <li>Mercredi : 12h - 14h30 / 19h - 22h</li>
-                        <li>Jeudi : 12h - 14h30 / 19h - 22h</li>
-                        <li>Vendredi : 12h - 14h30 / 19h - 22h</li>
-                        <li>Samedi : 12h - 14h30 / 19h - 22h</li>
-                        <li>Dimanche : 12h - 14h30 / 19h - 22h</li>
-                    </ul>
+                <ul class="opening-hours">
+                    <li>Lundi : 12h - 14h30 / 19h - 22h</li>
+                    <li>Mardi : 12h - 14h30 / 19h - 22h</li>
+                    <li>Mercredi : 12h - 14h30 / 19h - 22h</li>
+                    <li>Jeudi : 12h - 14h30 / 19h - 22h</li>
+                    <li>Vendredi : 12h - 14h30 / 19h - 22h</li>
+                    <li>Samedi : 12h - 14h30 / 19h - 22h</li>
+                    <li>Dimanche : 12h - 14h30 / 19h - 22h</li>
+                </ul>
 
             </div>
             <div class="info-item">
@@ -228,9 +236,9 @@
 
 
 
-    <script src="/assets/js/app.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap" async defer></script>
+        <script src="/assets/js/app.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap" async defer></script>
 
 </body>
 

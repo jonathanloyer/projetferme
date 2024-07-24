@@ -3,3 +3,82 @@
 @import url("./components/main.css");
 @import url("./components/footer.css");
 
+.burger-btn {
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    display: none; /* Initially hidden */
+}
+.burger{
+    position: relative;
+    width: 100%;
+}
+.mobile-menu {
+    display: none;
+    position: absolute;
+    top: 30px;
+    right: 0;
+    background: white;
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    z-index: 1000;
+}
+
+.mobile-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.mobile-menu li {
+    border-bottom: 1px solid #ddd;
+}
+
+.mobile-menu li a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+@media (max-width: 768px) {
+    .burger-btn {
+        display: block; /* Show burger button on small screens */
+    }
+    .barre {
+        display: none; /* Hide original menu on small screens */
+    }
+    .container-bo {
+        flex-direction: column;
+        align-items: center;
+    }
+    .menu {
+        display: none;
+       
+    }
+   
+    .wel {
+        text-align: center;
+        margin: 10px 0;
+    }
+    .welcome {
+        text-align: center;
+        padding: 10px;
+    }
+    .restaurant .content, .cuisine .content {
+        flex-direction: column;
+        text-align: center;
+    }
+    .restaurant .image, .cuisine .image {
+        margin: 20px 0;
+    }
+    .gallery {
+        flex-direction: column;
+        align-items: center;
+    }
+    .gallery-item {
+        margin: 10px 0;
+    }
+}

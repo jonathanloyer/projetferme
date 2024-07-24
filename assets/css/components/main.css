@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&display=swap");
 main {
   background-color: white;
   display: flex;
@@ -20,16 +20,18 @@ main {
 .menu ul li {
   display: inline;
   margin-right: 20px;
-  
 }
-.menu{
-    color: white;
-    width: 100%;
-    display: flex;
-    justify-content: end;
-    align-items: center;
+.menu ul li a {
+  color: white;
 }
-h1{
+.menu {
+  color: white;
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+h1 {
   color: white;
   font-size: 40px;
   font-weight: 900;
@@ -45,9 +47,8 @@ p.wel {
   color: rgb(220, 99, 220);
   font-weight: 900;
   font-size: 24px;
-
 }
-p.r{
+p.r {
   color: white;
   font-size: 20px;
   font-weight: bold;
@@ -56,43 +57,48 @@ p.r{
   margin: 20px;
   font-size: 24px;
 }
-.logo{
+.logo {
   padding: 20px;
   margin: 15px;
   font-size: 40px;
 }
-.restaurant .cuisine .instagram .carouse .additional-info{
-  max-width: 1000px;
+.restaurant,
+.cuisine,
+.instagram,
+.carousel,
+.additional-info {
   margin: 20px auto;
   padding: 20px;
   background-color: #fff;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
-  
 }
 
 .content {
   display: flex;
+  flex-direction: row;
+  justify-content: center;
   align-items: center;
+  padding-top: 30px;
+  text-align: center;
 }
 
 .text {
-  flex: 1;
-  padding-right: 20px;
+  width: 30%;
+  padding-right: 10px;
   color: black;
 }
 
 .image {
-  flex: 1;
+  width: 30%;
+  margin-left: 140px;
 }
 
 .image img {
   width: 300px;
   height: auto;
   border-radius: 8px;
-
 }
-
 
 .restaurant h2 .cuisine h2 .additional-info h2 {
   color: #b96a3b;
@@ -101,7 +107,7 @@ p.r{
   padding: 20px;
 }
 
-.restaurant p  .cuisine  p .additional-info p .additional-info ul{
+.restaurant p .cuisine p .additional-info p .additional-info ul {
   color: black;
   line-height: 1.6;
   margin: 20px;
@@ -117,7 +123,9 @@ span {
   margin: 20px auto;
   padding: 20px;
 }
-
+section.gallery {
+  padding-top: 20px;
+}
 .gallery-item {
   flex: 1;
   margin: 0 10px;
@@ -128,6 +136,13 @@ span {
   width: 100%;
   height: auto;
   border-radius: 8px;
+}
+.swiper-pagination {
+  position: relative;
+  text-align: center;
+  transition: .3s opacity;
+  transform: translate3d(0, 0, 0);
+  z-index: 10;
 }
 
 .gallery-item:hover {
@@ -151,7 +166,7 @@ span {
 .carousel .swiper {
   width: 600px;
   height: 300px;
- padding: 0 20px 0 40px;
+  padding: 0 20px 0 40px;
 }
 section.carousel {
   margin: 20px;
@@ -184,7 +199,8 @@ section.carousel {
   margin-bottom: 10px;
 }
 
-.info-item p, .opening-hours li {
+.info-item p,
+.opening-hours li {
   font-size: 1em;
   line-height: 1.4;
   color: black;

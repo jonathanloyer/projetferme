@@ -1,36 +1,39 @@
 document.addEventListener('DOMContentLoaded', function() {
+    const burgerBtn = document.getElementById('burger-btn');
+    const mobileMenu = document.getElementById('mobile-menu');
+
+    burgerBtn.addEventListener('click', function() {
+        if (mobileMenu.style.display === 'none' || mobileMenu.style.display === '') {
+            mobileMenu.style.display = 'block';
+        } else {
+            mobileMenu.style.display = 'none';
+        }
+    });
+
     const swiper = new Swiper('.swiper', {
-  // Optional parameters
-  direction: 'vertical',
-  loop: true,
-
-  // If we need pagination
-  pagination: {
-    el: '.swiper-pagination',
-  },
-
-  // Navigation arrows
-  navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
-  },
-
-  // And if we need scrollbar
-  scrollbar: {
-    el: '.swiper-scrollbar',
-  },
-});
-function initMap() {
-    var location = {lat: 48.8566, lng: 2.3522}; // Coordonées de l'emplacement
-    var map = new google.maps.Map(document.getElementById('map'), {
-        zoom: 14,
-        center: location
+        direction: 'vertical',
+        loop: true,
+        pagination: {
+            el: '.swiper-pagination',
+        },
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+        scrollbar: {
+            el: '.swiper-scrollbar',
+        },
     });
-    var marker = new google.maps.Marker({
-        position: location,
-        map: map
-    });
-}
-    // let elems = document.querySelectorAll('.sidenav');
-    // let instances = M.Sidenav.init(elems);
+
+    function initMap() {
+        let location = {lat: 48.8566, lng: 2.3522};
+        let map = new google.maps.Map(document.getElementById('map'), {
+            zoom: 14,
+            center: location
+        });
+        let marker = new google.maps.Marker({
+            position: location,
+            map: map
+        });
+    }
 });
