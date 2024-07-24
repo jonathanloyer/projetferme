@@ -1,0 +1,46 @@
+
+
+.chef-section h1 {
+    color: red;
+    border-bottom: 2px solid red;
+    padding-bottom: 10px;
+}
+
+.chef-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.chef-info img {
+    max-width: 50%;
+    margin-right: 20px;
+}
+
+.infos-pratiques {
+    background-color: #e0e0e0;
+    padding: 20px;
+    flex: 1;
+}
+
+.infos-pratiques h2 {
+    margin-top: 0;
+}
+
+.badges img {
+    display: block;
+    margin: 10px 0;
+}
+
+.restaurant-image img {
+    width: 100%;
+    margin-top: 20px;
+}
+
+footer {
+    background-color: #3b1e1e;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}

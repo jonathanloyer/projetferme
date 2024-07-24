@@ -5,6 +5,9 @@
 @import url("./components/carteheader.css");
 @import url("./components/cartemain.css");
 @import url("./components/cartefooter.css");
+@import url("./components/chefheader.css");
+@import url("./components/chefmain.css");
+@import url("./components/cheffooter.css");
 
 .burger-btn {
     background: none;
