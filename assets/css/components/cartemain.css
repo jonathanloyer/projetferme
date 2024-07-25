@@ -21,8 +21,12 @@
     padding-bottom: 10px;
     width: 100%;
 }
-.menu-section p {
+.menu-section .aff {
     color: black;
+    line-height: 1.5;
+    font-size: 15px;
+    text-align: justify;
+    margin-top: 10px;
 }
 
 .menu-items {
@@ -39,11 +43,14 @@
 .menu-category .aff {
     font-size: 1.2em;
     margin-bottom: 10px;
+    line-height: 1.5;
+    font-size: 15px;
 }
 .aff {
     color: black;
     padding-bottom: 10px;
     text-align: center;
+    margin-left: 5px;
 }
 .menu-container{
     display: flex;
@@ -106,11 +113,18 @@
     height: auto;
 }
 
-.wine-card {
-    text-align: center;
+.es{
+    line-height: 1.5;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: justify;
+    list-style: none;
+    font-size: 15px;
 }
 
-.wine-card img {
+.vi {
     width: 100%;
-    max-width: 600px;
+    margin-top: 10px;
+    font-size: 15px;
+    
 }
