@@ -1,6 +1,11 @@
+.chef-section, .story-section, .restaurant-info {
+    padding: 20px;
+    background-color: #fff;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
 
-
-.chef-section h1 {
+.chef-section h1, .story-section h2, .restaurant-info h2 {
     color: red;
     border-bottom: 2px solid red;
     padding-bottom: 10px;
@@ -9,7 +14,6 @@
 .chef-info {
     display: flex;
     justify-content: space-between;
-    
     align-items: flex-start;
     margin-bottom: 20px;
 }
@@ -19,10 +23,9 @@
     margin-right: 20px;
 }
 
-.infos-pratiques {
+/* .infos-pratiques {
     background-color: #e0e0e0;
     padding: 20px;
-    flex: 1;
 }
 
 .infos-pratiques h2 {
@@ -32,16 +35,9 @@
 .badges img {
     display: block;
     margin: 10px 0;
-}
+} */
 
-.restaurant-image img {
+.restaurant-image {
     width: 100%;
     margin-top: 20px;
-}
-
-footer {
-    background-color: #3b1e1e;
-    color: #fff;
-    text-align: center;
-    padding: 20px 0;
 }
