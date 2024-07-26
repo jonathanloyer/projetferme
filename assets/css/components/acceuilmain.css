@@ -7,7 +7,7 @@ main {
   flex-direction: column;
 }
 .container {
-  background: url("/assets/img/ar.jpg") no-repeat center center fixed;
+  background: url("./assets/img/ar.jpg") no-repeat center center fixed;
   height: 500px;
   width: 100%;
 }
