@@ -1,0 +1,52 @@
+
+header{
+    background-color:black;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    width: 100%;
+    z-index: 1000;
+}
+.barre ul{
+    list-style: none;
+}
+.barre ul li{
+    display: inline;
+    margin-right:15px;
+}
+.bord{
+    background-color: orange;
+    height: 20px;
+    width: 100%;
+    text-align: center;
+    color: black;
+
+}
+.sb{
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
+}
+.tel{
+    margin-left: 15px;
+}
+.reserver{
+    background-color: green;
+    color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+}
+.panier{
+    background-color: orange;
+    color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+}
+.lang{
+    background-color: #5D1037;
+    color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    
+}

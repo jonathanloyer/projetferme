@@ -1,82 +1,51 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Restaurant - La Ferme Des Voisins">
+    <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+    <link rel="manifest" href="./site.webmanifest">
+    <link rel="mask-icon" href="./safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <meta name="Restaurant - La Ferme Des Voisins" content="Venez découvrir notre restaurant ">
     <title>La Ferme Des Voisins</title>
-    <link rel="stylesheet" href="/assets/css/app.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./assets/css/app.css">
 </head>
+
 <body>
-    
-<header>
-<div class="header-container">
-<nav class="barre">
-    <ul>
-        <li><a href="#phone">Afficher</a></li>
-        <li><a href="#reserver">Réserver</a></li>
-        <li><a href="#panier">Panier</a></li>
-        <li><a href="#language"><img src="/assets/img/language.png" alt="bouton language"></a></li>
-    </ul>
-</nav>
-<p class="bord">Notre établissement sera fermé du 4 août 2024 au 20 août 2024</p>
+    <header>
 
-</div>
-<section class="background">
-    <img src="/assets/img/ar.jpg" alt="image d'arbre">
-    <div class="logo">
-        <a href="#acceuil"><img src="/assets/img/logo.png" alt="logo de la ferme des voisins"></a>
-    </div>
-</section>
-    <nav>
-        <ul class="desktop-menu">
-            <li><a href="#acceuil">Acceuil</a></li>
-            <li><a href="/carte.html">à la carte</a></li>
-            <li><a href="/chef.html">le Chef</a></li>
-            <li><a href="/jazz.html">soirée jazz</a></li>
-            <li><a href="/boisson.html">carte des vins</a></li>
-            <li><a href="#contact">plan d'accés</a></li>
-            <li><a href="">actualité</a></li>
-            <li><a href="">galerie photo</a></li>
-            <li><a href="">réception</a></li>
-            <li><a href="">contactez-nous</a></li>
-        </ul>
-    </nav>
+        <div class="container-struct">
 
-<h2>Bienvenue</h2>
-<section class="welcome">
-<h1>LA FERME DE VOISINS</h1>
-<P class="wel">l'art culinaire au service de la gourmandise</P>
-</section>
-<nav class="arcodeon-menu">
-    <button class="arcodeon-burger">Acceuil</button>
-    <ul class="arcodeon-content">
-        <li> <a href="/carte.html">à la carte</a></li>
-        <li> <a href="/chef.html">le Chef</a></li>
-        <li> <a href="/chef.html">soirée jazz</a></li>
-        <li> <a href="/boisson.html">carte des vins</a></li>
-        <li> <a href="">plan d'accés</a></li>
-        <li> <a href="">actualité</a></li>
-        <li> <a href="">galerie photo</a></li>
-        <li> <a href="">réception</a></li>
-        <li> <a href="">contactez-nous</a></li>
-    </ul>
+            <div class="container-row sb">
+                <div>
+                    <p class="tel">telephone afficher </p>
+                </div>
+                <div>
+                    <nav class="barre">
+                        <ul>
+                            <li> <button class="reserver">Réserver</button></li>
+                            <li><button class="panier">Panier</button></li>
+                            <li class="languages">
+                                <button class="lang">
+                                    <img src="./assets/img/language.png" alt="Langues" class="btn-img">
+                                </button>
 
+                            </li>
+                        </ul>
+                    </nav>
 
+                </div>
 
-    
-</nav>
-
-</header>
-
-<main>
-
-</main>
-
-<footer>
-
-
-</footer>
+            </div>
+        </div>
+        <p class="bord">Notre établissement sera fermé du 4 août 2024 au 20 août 2024</p>
+    </header>
 
 
 
@@ -84,7 +53,214 @@
 
 
 
+    <main>
+        <div class="container">
+            <div class="container-bo">
+                <div class="logo">
+                    <a href="./index.html"><img src="./assets/img/logo.png" alt="logo de la ferme des voisins"></a>
+                </div>
+                <nav class="menu">
+                    <ul>
+                        <li><a href="./index.html">Acceuil</a></li>
+                        <li><a href="./carte.html">à la carte</a></li>
+                        <li><a href="./chef.html">le Chef</a></li>
+                        <li><a href="./jazz.html">soirée jazz</a></li>
+                        <li><a href="./boisson.html">carte des vins</a></li>
+                        <li><a href="#contact">plan d'accés</a></li>
+                        <li><a href="">actualité</a></li>
+                        <li><a href="">galerie photo</a></li>
+                        <li><a href="">réception</a></li>
+                        <li><a href="">contactez-nous</a></li>
+                    </ul>
+                </nav>
 
-<script src="/assets/js/app.js"></script>
+            </div>
+            <p class="wel">Bienvenue</p>
+
+            <section class="welcome">
+                <h1>LA FERME DE VOISINS</h1>
+                <P class="r">l'art culinaire au service de la gourmandise</P>
+            </section>
+        </div>
+
+        <div class="burger">
+            <button class="burger-btn" id="burger-btn">☰</button>
+            <nav class="mobile-menu" id="mobile-menu">
+                <ul class="mobile-menu-content">
+                    <li><a href="./index.html">Accueil</a></li>
+                    <li><a href="./carte.html">à la carte</a></li>
+                    <li><a href="./chef.html">le Chef</a></li>
+                    <li><a href="./jazz.html">soirée jazz</a></li>
+                    <li><a href="./boisson.html">carte des vins</a></li>
+                    <li><a href="#contact">plan d'accés</a></li>
+                    <li><a href="#">actualité</a></li>
+                    <li><a href="#">galerie photo</a></li>
+                    <li><a href="#">réception</a></li>
+                    <li><a href="#">contactez-nous</a></li>
+                </ul>
+            </nav>
+        </div>
+
+
+
+        <div class="container-struct">
+            <section class="restaurant">
+                <div class="content">
+                    <div class="text">
+                        <h2 class="devouvrez"> <span>Découvrez</span> notre restaurant</h2>
+                        <p class="deco">A l'orée de la Haute-Vallée de Chevreuse, au coeur d'une région riche en
+                            histoire
+                            (Versailles,
+                            Port-Royal, Dampierre), vous tomberez sous le charme de ce restaurant situé dans le vieux
+                            village de Voisins-le-Bretonneux, l'une des communes du centre d'affaires de Saint Quentin
+                            en
+                            Yvelines.</p>
+                        <p class="deco">Venez découvrir une cuisine authentique et raffinée dans un cadre spacieux et
+                            chaleureux,
+                            autour
+                            d'une magnifique cheminée centrale l'hiver, et profiter de la terrasse généreusement fleurie
+                            dès
+                            les premiers beaux jours.</p>
+                    </div>
+                    <div class="image b">
+                        <img src="./assets/img/24.png" alt="Image du restaurant">
+                    </div>
+                </div>
+            </section>
+
+
+            <section class="gallery">
+                <div class="gallery-item">
+                    <img src="./assets/img/15.png" alt="Image 1">
+                </div>
+                <div class="gallery-item">
+                    <img src="./assets/img/16.png" alt="Image 2">
+                </div>
+                <div class="gallery-item">
+                    <img src="./assets/img/17.png" alt="Image 3">
+                </div>
+            </section>
+            <div class="container-struct">
+                <section class="cuisine">
+                    <div class="con">
+                        <div class="notre">
+                            <img src="./assets/img/19.png" alt="Déguster notre cuisine">
+                        </div>
+                        <div class="te">
+                            <h2 class="decouvrez"> <span>Déguster</span> notre cuisine</h2>
+                            <p>Découvrez notre cuisine raffinée et authentique, préparée avec des ingrédients frais et
+                                locaux.
+                                Notre chef vous propose des plats savoureux et délicats, à déguster dans un cadre
+                                chaleureux
+                                et
+                                convivial.</p>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+
+            <section class="instagram">
+                <h2 class="insta">Retrouvez-nous sur Instagram</h2>
+                <hr>
+            </section>
+
+            <section class="carousel">
+                <div class="swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img src="/assets/img/15.png" alt="Image Carousel 1"></div>
+                        <div class="swiper-slide"><img src="/assets/img/16.png" alt="Image Carousel 2"></div>
+                        <div class="swiper-slide"><img src="/assets/img/17.png" alt="Image Carousel 3"></div>
+                    </div>
+                    <!-- Add Pagination -->
+                    <div class="swiper-pagination"></div>
+                    <!-- Add Navigation -->
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+            </section>
+        </div>
+        <div class="container-struct">
+            <section class="additional-info">
+                <div class="info-item">
+                    <h2>HORAIRES D'OUVERTURE</h2>
+                    <ul class="opening-hours">
+                        <li>Lundi : 12h - 14h30 / 19h - 22h</li>
+                        <li>Mardi : 12h - 14h30 / 19h - 22h</li>
+                        <li>Mercredi : 12h - 14h30 / 19h - 22h</li>
+                        <li>Jeudi : 12h - 14h30 / 19h - 22h</li>
+                        <li>Vendredi : 12h - 14h30 / 19h - 22h</li>
+                        <li>Samedi : 12h - 14h30 / 19h - 22h</li>
+                        <li>Dimanche : 12h - 14h30 / 19h - 22h</li>
+                    </ul>
+                    <h2>NEWSLETTER</h2>
+                    <p>Inscrivez-vous à notre newsletter pour recevoir des offres exclusives.</p>
+                </div>
+                <div class="info-item">
+                    <h2>VENEZ PROFITER DE NOTRE CHEMINÉE CENTRALE !!</h2>
+                    <div class="del">
+                        <div>
+                            <img src="./assets/img/23.png" alt="Cheminée centrale">
+                        </div>
+                        <div class="autour">
+                            <p>Au Déjeuner et au dîner du lundi au samedi midi et soir ainsi que le dimanche au
+                                déjeuner.
+
+                                Réservation conseillée.</p>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="info-item">
+                    <h2>FACEBOOK</h2>
+                    <p>Suivez-nous sur Facebook pour les dernières nouvelles et événements.</p>
+                    <h2>CARTE</h2>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2630.28213069075!2d2.0465447750510193!3d48.75740830780953!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e680e1735e4a41%3A0xc3657bbd897f1e63!2s4%20Rue%20de%20Port%20Royal%2C%2078960%20Voisins-le-Bretonneux!5e0!3m2!1sfr!2sfr!4v1721898395826!5m2!1sfr!2sfr"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+
+                </div>
+            </section>
+
+        </div>
+
+    </main>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-left">
+                <p>&copy; 2023 LA FERME DE VOISINS</p>
+                <nav>
+                    <ul>
+                        <li><a href="#">Mentions légales</a></li>
+                        <li><a href="#">Nous contacter</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="footer-right">
+                <p>Propulsé par</p>
+                <nav>
+                    <ul>
+                        <li><a href="#">ClicResto</a></li>
+                        <li><a href="#">Administration</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+
+    </footer>
+
+
+
+    <script src="./assets/js/app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+
 </body>
+
 </html>

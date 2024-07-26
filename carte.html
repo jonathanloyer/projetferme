@@ -1,24 +1,257 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+    <link rel="manifest" href="./site.webmanifest">
+    <link rel="mask-icon" href="./safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
     <title>La Ferme Des Voisins</title>
-    <link rel="stylesheet" href="/assets/css/carte.css">
+    <link rel="stylesheet" href="./assets/css/app.css">
 </head>
+
 <body>
     <header>
 
+        <div class="container-struct">
+
+            <div class="container-row sb">
+                <div>
+                    <p class="tel">telephone afficher </p>
+                </div>
+                <div>
+                    <nav class="barre">
+                        <ul>
+                            <li> <button class="reserver">Réserver</button></li>
+                            <li><button class="panier">Panier</button></li>
+                            <li class="languages">
+                                <button class="lang">
+                                    <img src="/assets/img/language.png" alt="Langues" class="btn-img">
+                                </button>
+                                <!-- <div class="content">
+                                <a href="#">Français</a>
+                                <a href="#">English</a>
+                                <a href="#">Español</a>
+                            </div> -->
+                            </li>
+                        </ul>
+                    </nav>
+
+                </div>
+
+            </div>
+        </div>
+        <p class="bord">Notre établissement sera fermé du 4 août 2024 au 20 août 2024</p>
     </header>
+
     <main>
-    
+        <div class="container">
+            <div class="container-bo">
+                <div class="logo">
+                    <a href="./index.html"><img src="./assets/img/logo.png" alt="logo de la ferme des voisins"></a>
+                </div>
+                <nav class="menu">
+                    <ul>
+                        <li><a href="./index.html">Acceuil</a></li>
+                        <li><a href="./carte.html">à la carte</a></li>
+                        <li><a href="./chef.html">le Chef</a></li>
+                        <li><a href="./jazz.html">soirée jazz</a></li>
+                        <li><a href="./boisson.html">carte des vins</a></li>
+                        <li><a href="#contact">plan d'accés</a></li>
+                        <li><a href="">actualité</a></li>
+                        <li><a href="">galerie photo</a></li>
+                        <li><a href="">réception</a></li>
+                        <li><a href="">contactez-nous</a></li>
+                    </ul>
+                </nav>
+
+            </div>
+            <p class="wel">Bienvenue</p>
+
+            <section class="welcome">
+                <h1>LA FERME DE VOISINS</h1>
+                <P class="r">l'art culinaire au service de la gourmandise</P>
+            </section>
+        </div>
+
+        <div class="burger">
+            <button class="burger-btn" id="burger-btn">☰</button>
+            <nav class="mobile-menu" id="mobile-menu">
+                <ul class="mobile-menu-content">
+                    <li><a href="./index.html">Accueil</a></li>
+                    <li><a href="./carte.html">à la carte</a></li>
+                    <li><a href="./chef.html">le Chef</a></li>
+                    <li><a href="./jazz.html">soirée jazz</a></li>
+                    <li><a href="./boisson.html">carte des vins</a></li>
+                    <li><a href="#contact">plan d'accés</a></li>
+                    <li><a href="#">actualité</a></li>
+                    <li><a href="#">galerie photo</a></li>
+                    <li><a href="#">réception</a></li>
+                    <li><a href="#">contactez-nous</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="container-struct">
+            <div class="menu-container">
+
+                <section class="menu-section">
+                    <h1 class="ab">Menu Affaire —— 39 €</h1>
+                    <p class="aff">
+                        Valable du Lundi au Vendredi au déjeuner uniquement<br>
+                        Cette formule se compose d’un choix de 2 entrées, 2 plats et 2 desserts en fonction des saisons,
+                        arrivages et envies du Chef !<br>
+                        Prix à l’assiette: entrée: 14€ Plat: 25€ Dessert: 12€<br>
+                        Formule Entrée/Plat/Dessert: 39€<br>
+                        Le même à la semaine du : Lundi 22 Juillet au Vendredi 26 Juillet au Déjeuner Uniquement
+                    </p>
+                    <div class="menu-items">
+                        <div class="menu-category">
+                            <h3 class="ent">entrée :</h3>
+                            <p class="aff">Brochette de Pastèque Grillée et Jambon de Vendée ou Tartare de Courgette
+                                avec
+                                Croustillant
+                                de
+                                Chèvre au Miel</p>
+                        </div>
+                        <div class="menu-category">
+                            <h3 class="ent">plat :</h3>
+                            <p class="aff">Poire de Boeuf, Polenta Crémeuse et Jus de Viande ou Pavé de Saumon Grillé,
+                                Tombée
+                                d’Épinard,
+                                Crème Curry</p>
+                        </div>
+                        <div class="menu-category">
+                            <h3 class="ent">dessert :</h3>
+                            <p class="aff">Nougat Glacé au Miel ou Sablé Breton avec Namélaka au Chocolat Caramelia</p>
+                        </div>
+                    </div>
+                    <h2 class="au">Menu de la Ferme —— 65 €</h2>
+                    <p class="aff">
+                        Le menu de la ferme est deux choix dans les 2 catégories<br>
+                        Cette formule se compose d’un choix de 2 entrées, 2 plats et 2 desserts en fonction des saisons,
+                        arrivages et envies du Chef !<br>
+                        Prix à l’assiette: entrée: 14€ Plat: 25€ Dessert: 12€<br>
+                        Formule Entrée/Plat/Dessert: 39€<br>
+                        Le même à la semaine du : Lundi 22 Juillet au Vendredi 26 Juillet au Déjeuner Uniquement
+                    </p>
+                    <div class="menu-items">
+                        <div class="menu-category">
+                            <h3 class="an">entrée :</h3>
+                            <p>Brochette de Pastèque Grillée et Jambon de Vendée ou Tartare de Courgette avec
+                                Croustillant de
+                                Chèvre au Miel</p>
+                        </div>
+                        <div class="menu-category">
+                            <h3 class="an">plat :</h3>
+                            <p>Poire de Boeuf, Polenta Crémeuse et Jus de Viande ou Pavé de Saumon Grillé, Tombée
+                                d’Épinard,
+                                Crème Curry</p>
+                        </div>
+                        <div class="menu-category">
+                            <h3 class="an">dessert :</h3>
+                            <p>Nougat Glacé au Miel ou Sablé Breton avec Namélaka au Chocolat Caramelia</p>
+                        </div>
+                    </div>
+                    <h2 class="au">Nos Entrées</h2>
+                    <ul class="es">
+                        <li>Les Gambas en Sucettes Croustillantes, Crème Acidulée</li>
+                        <li>Foie Gras Poché au Vin Rouge, Pain d’Épices Maison, Gelée de Mangue, Chutney Pomme</li>
+                        <li>Queue de Homard Juste Saisie, Pignons et Ephémère Safrané</li>
+                        <li>Saumon Fumé Mariné à la Betterave et au Cassis, Fromage Blanc</li>
+                    </ul>
+                    <h2 class="au">Nos Plats</h2>
+                    <ul class="es">
+                        <li>Notre Tête de Veau, Petits Légumes et Notre Ravigote</li>
+                        <li>Filet de Bar, Risotto Façon Paëlla, Sauce Chorizo</li>
+                        <li>Filet de Boeuf Grillé, Mousseline de Pomme de Terre, Jus de Viande</li>
+                        <li>Filet de Turbot Grillé, Quinoa Gourmand, Sauce Vierge</li>
+                    </ul>
+                    <h2 class="au">Les Fromages</h2>
+                    <ul class="es">
+                        <li>Assiette de Fromages</li>
+                        <li>L’Assiette de Fromage à Partager (2-3 Personnes)</li>
+                    </ul>
+                    <h2 class="au">Nos Desserts</h2>
+                    <ul class="es">
+                        <li>Assiette de Fromage <br> Lactose</li>
+                        <li>Le Baba bouchon maison et rhum arrangé à l'orange</li>
+                        <li>Soupe de Fraises, Mûres et Framboises à la Sangria et Sorbet Framboise Citron</li>
+                        <li>Mi-cuit Chocolat Caraïbes 66%, Glace Praliné</li>
+                    </ul>
+                    <h2 class="au">Menu Découvertes —— 85€</h2>
+                    <p class="aff">
+                        En 5 Services, servi à l’ensemble de la table<br>
+                        Accord Mets et Vin possible à 41€ par personne
+                    </p>
+                    <h2 class="au">Carte des Vins</h2>
+                    <img src="./assets/img/50.png" alt="Carte des Vins" class="vi">
+                </section>
+                </section>
+                <section class="infos-pratiques">
+                    <h2 class="av">Infos Pratiques</h2>
+                    <div class="services">
+                        <h5 class="se">Services</h5>
+                        <p>Parking, Climatisé, Accès handicapés, Terrasse, Wifi, Privatisation, Plats à emporter,
+                            Animaux
+                            acceptés</p>
+                    </div>
+                    <div class="moyens-paiement">
+                        <h5 class="se">Moyens de paiement</h5>
+                        <p>Espèces, Eurocard/Mastercard, Chèques, Carte Visa, Carte Bleue, Carte American Express,
+                            Chèques
+                            Vacances ANCV</p>
+                    </div>
+                    <div class="a-proximite">
+                        <h5 class="se">A proximité</h5>
+                        <p>Golf National, Bois de Chevreuse, Bois de Satory, Golf Régional d'Ile-de-France, Golf
+                            Saint-Marc
+                        </p>
+                    </div>
+                    <div class="recommandations">
+                        <img src="./assets/img/44.png" alt="100% Fait Maison">
+                        <img src="./assets/img/45.png" alt="Recommandé par Tripadvisor">
+                        <img src="./assets/img/47.png" alt="Guide Michelin">
+                    </div>
+                </section>
+            </div>
+        </div>
+
+
+
+
     </main>
-    
-    <footer>
-    
-        
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-left">
+                <p>&copy; 2023 LA FERME DE VOISINS</p>
+                <nav>
+                    <ul>
+                        <li><a href="#">Mentions légales</a></li>
+                        <li><a href="#">Nous contacter</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="footer-right">
+                <p>Propulsé par</p>
+                <nav>
+                    <ul>
+                        <li><a href="#">ClicResto</a></li>
+                        <li><a href="#">Administration</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+
     </footer>
 
-    <script src="/assets/js/carte.js"></script>
+    <script src="./assets/js/app.js"></script>
 </body>
+
 </html>
