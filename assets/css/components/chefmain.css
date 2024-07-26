@@ -1,39 +1,64 @@
 .chef-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: flex-start;
-    width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
 }
 
-
-
-.chef-section{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    background-color: #fff;
-    margin-bottom: 20px;
-    padding: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 50%;
-    color: black;
+.chef-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #fff;
+  margin-bottom: 20px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 50%;
+  color: black;
 }
 
-.chef-section .ao{
-    color: red;
-    border-bottom: 2px solid red;
-    padding-bottom: 10px;
-    font-size: 24px;
+.chef-section .ao {
+  color: red;
+  border-bottom: 2px solid red;
+  padding-bottom: 10px;
+  font-size: 24px;
 }
 
-.chef-image{
-    width: 100%;
-    margin-top: 20px;
+.chef-image {
+  width: 100%;
+  margin-top: 20px;
+}
+.am {
+  margin: 10px;
+  line-height: 1.5;
+  text-align: justify;
+}
+.eff {
+  color: black;
+  padding-bottom: 10px;
+  text-align: justify;
+  margin-left: 5px;
+  line-height: 1.5;
 }
 
-.restaurant-image {
-    width: 100%;
-    margin-top: 20px;
+.small-image {
+  width: 250px;
+}
+.text-image-container {
+  margin-top: 20px;
+  /* flex-wrap: wrap; */
+}
+.egg {
+  padding-right: 20px;
+}
+
+.gauche {
+  float: left;
+  margin-left: 3px;
+}
+.droite {
+  float: right;
+  margin-left: 15px;
 }

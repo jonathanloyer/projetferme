@@ -2,12 +2,9 @@
 @import url("./components/acceuilheader.css");
 @import url("./components/acceuilmain.css");
 @import url("./components/acceuilfooter.css");
-@import url("./components/carteheader.css");
 @import url("./components/cartemain.css");
-@import url("./components/cartefooter.css");
-@import url("./components/chefheader.css");
 @import url("./components/chefmain.css");
-@import url("./components/cheffooter.css");
+@import url("./components/jazz.css");
 
 .burger-btn {
     background: none;
